@@ -1,0 +1,35 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30114.105
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Web", "Web\Web.csproj", "{EA6CA0E4-FA91-4F82-9D45-1D4EF87EE5D6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Proxy", "Proxy\Proxy.csproj", "{DAC264E0-EEF8-435F-AA06-46BC251A820C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "SolutionItems", "SolutionItems", "{DF0747DF-2DAD-4E34-9E8E-FD194114E018}"
+	ProjectSection(SolutionItems) = preProject
+		.gitignore = .gitignore
+		global.json = global.json
+		README.md = README.md
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{EA6CA0E4-FA91-4F82-9D45-1D4EF87EE5D6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EA6CA0E4-FA91-4F82-9D45-1D4EF87EE5D6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EA6CA0E4-FA91-4F82-9D45-1D4EF87EE5D6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EA6CA0E4-FA91-4F82-9D45-1D4EF87EE5D6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DAC264E0-EEF8-435F-AA06-46BC251A820C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DAC264E0-EEF8-435F-AA06-46BC251A820C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DAC264E0-EEF8-435F-AA06-46BC251A820C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DAC264E0-EEF8-435F-AA06-46BC251A820C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal

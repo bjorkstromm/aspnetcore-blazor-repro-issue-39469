@@ -1,0 +1,14 @@
+﻿{
+  "profiles": {
+    "Proxy": {
+      "commandName": "Project",
+      "dotnetRunMessages": true,
+      "launchBrowser": true,
+      "launchUrl": "https://localhost:8889/WeB",
+      "applicationUrl": "https://localhost:8889",
+      "environmentVariables": {
+        "ASPNETCORE_ENVIRONMENT": "Development"
+      }
+    }
+  }
+}
